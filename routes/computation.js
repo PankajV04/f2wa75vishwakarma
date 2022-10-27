@@ -1,11 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var x = Math.random();
-var y = Math.random();
 
-var val1="Math.log(x) of value "+ x + " is "+ Math.log(x) 
-var val2="Math.imul(x, y) of value "+ x +"and"+ y +" is "+ Math.imul(x, y)
-var val3= "Math.log10(x) of value "+ x + " is "+ Math.log10(x);
+var val1="Math.cos(x) of value "+ x + " is "+ Math.cos(x) 
+var val2="Math.asin(x) of value "+ x +" is "+ Math.asin(x)
+var val3= "Math.asinh(x) of value "+ x + " is "+ Math.asinh(x)
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
